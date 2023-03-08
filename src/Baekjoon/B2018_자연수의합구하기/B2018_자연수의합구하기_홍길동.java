@@ -8,7 +8,7 @@ public class B2018_자연수의합구하기_홍길동 {
 		int n = Integer.parseInt(reader.readLine());
 		int tot = 0;
 		int count = 0;
-		int idx = 1;
+		int idx = 1; //테스트
 		while(tot < n){
 			tot += idx;
 			idx += 1;}
